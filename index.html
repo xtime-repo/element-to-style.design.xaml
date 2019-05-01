@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        main{
+            display:flex;
+            align-items: stretch;
+            flex-direction: column;
+            height: 80vh;
+            margin :20px;
+        }
+    textarea{
+        flex-grow: 1;
+ 
+    }
+    #txtResponse{
+        order: 2;
+    }
+    button{
+height: 60px;
+margin: 10px;
+    }
+    </style>
+</head>
+<body>
+    
+    <main>
+
+        <textarea name="" id="txtSrc" cols="30" rows="10"></textarea>
+        <textarea name="" id="txtResponse" cols="30" rows="10"></textarea>
+      
+      
+      <aside>
+
+          <button onclick="convert()">convert</button>
+          <button onclick="dicUsage()">Dictionary Usage</button>
+      </aside>
+    </main>
+
+    <script src="./script/script.js"></script>
+</body>
+</html>
